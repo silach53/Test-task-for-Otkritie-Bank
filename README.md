@@ -3,17 +3,17 @@
 
 ## **Usage**
 
-### **Test the Code**
+### **Тестирование кода**
 
-To test the code, use sections 1 and 5.
+Чтобы протестировать код, используйте разделы 1 и 5.
 
-### **Section 2**
+### **Раздел 2**
 
-Section 2 is provided to demonstrate the use of an existing company script for extracting INN information for clients.
+Раздел 2 приведен для демонстрации использования существующего скрипта компании для извлечения информации о ИНН для клиентов.
 
-### **Section 3**
+### **Раздел 3**
 
-Section 3 is provided to demonstrate the expected parsing from the Kommersant website. However, due to the presence of CAPTCHA, the code cannot be fully tested and run as intended. You may need to implement an alternative solution for bypassing CAPTCHA, such as using third-party libraries or services.
+Раздел 3 приведен для демонстрации ожидаемого синтаксического анализа с веб-сайта "Коммерсанта". Однако из-за наличия CAPTCHA код не может быть полностью протестирован и запущен по назначению. Возможно, вам потребуется реализовать альтернативное решение для обхода CAPTCHA, например, с использованием сторонних библиотек или сервисов.
 
 ## **Prerequisites**
 
@@ -22,36 +22,28 @@ Section 3 is provided to demonstrate the expected parsing from the Kommersant we
 - openpyxl
 - PyPDF2
 
-## **Installation**
+## **Установка**
 
 1. Clone the repository or download the source code.
 
 ```
-bashCopy code
-git clone https://github.com/yourusername/bankruptcy_information_search.git
+
+git clone https://github.com/silach53/Test-task-for-Otkritie-Bank
 
 ```
 
-1. Change the working directory to the project directory.
-
-```
-bashCopy code
-cd bankruptcy_information_search
+2. Измените рабочий каталог на каталог проекта.
 
 ```
 
-1. Install the required packages using pip.
-
-```
-Copy code
-pip install -r requirements.txt
+cd Test-task-for-Otkritie-Bank
 
 ```
 
-1. Run the Python script.
+3. Откройте скрипт Jupyter Notebook.
 
 ```
-Copy code
-python bankruptcy_search.py
-
+jupyter notebook
 ``` 
+
+4. Откройте Алексеев Александр .ipynb
